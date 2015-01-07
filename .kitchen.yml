@@ -1,0 +1,22 @@
+---
+driver_plugin: vagrant
+driver_config:
+  require_chef_omnibus: false
+platforms:
+  - name: debian-7-chef
+    driver:
+      box: debian-7-chef
+      box_url: http://localhost/box/debian-7-dev-virtualbox-chef.box
+      network:
+        - ['private_network', {ip: '172.28.128.30'}]
+provisioner:
+  name: chef_solo
+suites:
+  - name: default
+    data_bags_path: 'test/integration/default/data_bags'
+    #encrypted_data_bag_secret_key_path: 'test/integration/default/encrypted_data_bag_secret'
+    run_list:
+      - recipe[dsi-users::default]
+    attributes:
+      dsi-users:
+

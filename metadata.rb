@@ -1,0 +1,8 @@
+name 'dsi-users'
+maintainer 'Stephane LII'
+maintainer_email 'stephane.lii@informatique.gov.pf'
+license 'All rights reserved'
+description 'Installs/Configures dsi-users'
+long_description 'Installs/Configures dsi-users'
+version '0.1.0'
+depends 'sudo'
