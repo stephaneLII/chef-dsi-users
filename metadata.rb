@@ -5,4 +5,6 @@ license 'All rights reserved'
 description 'Installs/Configures dsi-users'
 long_description 'Installs/Configures dsi-users'
 version '0.1.0'
+
+depends 'apt'
 depends 'sudo'
