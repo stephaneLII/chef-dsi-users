@@ -1,4 +1,4 @@
-define :dsi_users, username: nil, password: nil do
+define :dsi_users, username: nil, password: nil do # ~FC015
 
   user params[:username] do
     supports manage_home: true
