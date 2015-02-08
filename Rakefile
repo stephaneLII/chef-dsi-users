@@ -15,10 +15,9 @@ task :password do
   end
 
   puts
-  raise 'passwords do not match' unless p1 == p2
+  fail 'passwords do not match' unless p1 == p2
 
   if p1.length == 0
-    #p1 = %x(pwgen -s 10 1).chomp
     p1 = SecureRandom.hex
     puts 'You did not enter a password, generating one for you:'
     puts

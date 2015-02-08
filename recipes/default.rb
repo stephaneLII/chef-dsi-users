@@ -2,7 +2,7 @@
 # Cookbook Name:: dsi-users
 # Recipe:: default
 #
-# Copyright (C) 2015 Stéphane LII
+# Copyright (C) 2015 Stephane LII
 #
 # Licensed under the Apache License, Version 2.0 (the 'License');
 # you may not use this file except in compliance with the License.
