@@ -2,16 +2,25 @@
 # Cookbook Name:: dsi-users
 # Recipe:: default
 #
-# Copyright (C) 2015 YOUR_NAME
+# Copyright (C) 2015 Stéphane LII
 #
-# All rights reserved - Do Not Redistribute
+# Licensed under the Apache License, Version 2.0 (the 'License');
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
 #
-dsi_users 'sysadmin' do
-  username 'sysadmin'
-  password '$1$VM6v4sqy$bfSf0EFE5UEoIodlvsMND/'
-end
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an 'AS IS' BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
 
-dsi_users 'vagrant' do
-  username 'vagrant'
-  password '$1$R984ZKx5$h3A2vMI5O1LV9sDvSKtnR0'
+dsi_users 'sysadmin'
+
+if node['dsi-users']['dev'] == true
+  dsi_users 'vagrant' do
+    passwordless true
+  end
 end
