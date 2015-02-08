@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
+gem 'highline'
+gem 'unix_crypt'
+gem 'securerandom'
 
 # Uncomment these lines if you want to live on the Edge:
 #
