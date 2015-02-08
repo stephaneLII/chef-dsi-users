@@ -40,4 +40,5 @@ suites:
         dev: true
         databag:
           name: 'users'
+          path: '/tmp/kitchen/encrypted_data_bag_secret'
           encrypted: true

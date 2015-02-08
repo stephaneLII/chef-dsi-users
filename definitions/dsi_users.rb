@@ -1,7 +1,7 @@
 define :dsi_users, username: nil, password: nil, passwordless: false do # ~FC015
 
   if node['dsi-users']['databag']['encrypted'] == true
-    secret = Chef::EncryptedDataBagItem.load_secret('/tmp/kitchen/encrypted_data_bag_secret')
+    secret = Chef::EncryptedDataBagItem.load_secret(node['dsi-users']['databag']['path'])
     item =  Chef::EncryptedDataBagItem.load(node['dsi-users']['databag']['name'], params[:name], secret)
   else
     item = data_bag_item(node['dsi-users']['databag']['name'], params[:name])
