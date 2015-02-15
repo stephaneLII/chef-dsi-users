@@ -1,0 +1,15 @@
+{
+  "id": "vagrant",
+  "password": {
+    "encrypted_data": "318ep8idelhUq2HrlHb+kRyaSH8QwaPmS3UlX77x42WmoTxukWBXrOrJ1R1P\nlYJlVuITN5g6yQ0Icu5T+r/3P5DG/UtYmkEPt0evRVoP4hAkNHLMhyAPxXek\nV1+sIlPOM4QKQgfchSTggaPhfzmCIGdmwHtqgzDQkCklimSG/B4=\n",
+    "iv": "uEnlHAf31Cm0jVDWS2D51g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_keys": {
+    "encrypted_data": "3dZW1+pOLoymK0hXVOFjoWwtZGQnut5XlmTilg1me/JpW4VLnaVKUSEf3+Ub\nP/fVISewKJ+nYlp1sOw68EebbMhElJjidSBewlztFkmVPxhF+pUh6po1CbkK\nnHnDoDuBwWRW1ejbTH1KQlquphdqKOvJpFGhapFFo3Zc5BIEKd16TYhYdBLc\nbbdCs8OAS7lttzGkPyHseCWbtq/CnBGpKVZmX0faamAgyCtzB+2uqA0P09sf\nBIxXkvVJsZpVOrJxBhrGz0TDIpxBfgZ0BeqXvxwZUTp3ZMTrgGOV4UHplv33\n9I45jyEcjz0M+QIfNjIIKnJgGndkrDZ6s7DaeMD3+JWNkvIyaZt9SfxJHstT\nqH62587qUjQ4JLxWTMZ7S2T+enIWnEyeg90B+tE/xtpEvCOi3Wa8JCz2mduq\nfF9W+LErGBtugPAJM3T2zmbQbhjxBx/B/9111U/isPco6Ab5C4T8oxjWdABW\n8XQ440J87FmI+vtYNXqK+wXBJCoQJgezF9DdD9QYRWxVMsxBlnozIN0ltV1M\nUFhKyWOZsbxx05nmCYZ6qi1xDtlrALYsEpi/\n",
+    "iv": "dAOeJPO2PWWh9NIFO/6lKg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

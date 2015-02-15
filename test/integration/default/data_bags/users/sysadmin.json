@@ -1,0 +1,15 @@
+{
+  "id": "sysadmin",
+  "password": {
+    "encrypted_data": "tDS4wKBF+ek5o1h5jbpa2Q+lsaIiz2GQMKCO2OGOWs2IyCHFrhgpQN3PQQIq\noXu2JtGCcJwjl5H5w28Np1cnJXs0JFDBJKmu+GkNBGvuGHOBe/UybYRtRTZj\nFl25+n6F7yh8QZbECaSHonGWO/++JVb6ovqu0ha08Rg0FNpnDn0=\n",
+    "iv": "PmKUSw0PZsT/mlMhc6VNgw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_keys": {
+    "encrypted_data": "z38MInZ5RxyVExidR68QLUrgCSPHST+CHuBVdvRUT6CAEqmsZhY/UkaoGN2p\nOJmNVyK8YZ2Wq0nnNk7OpmS+I6bqxzM0HAMdXwXMJmJbv2Gv2FPnyjCl2y2p\n2sB5n56hmYok1GDkPmoc2KxwNdPXO4nqI2ZHP3bcuEv5xHXH8laxeSoSqYKb\niQDahTiUy0GF+LBz7ASO2CNMUNfEjDDPVol9quEiCpwvazBp0lgrgrnUHalD\nmWnTPVtS6lZ+0QSBRcfOYKBqJUipyqpb9CvhsdQubxQ+3dOM9iJC6qi9uaN2\nk2mPZ5gtre0GTN+k/LQ7iX3dBS1EjXG4hCCvYb/YR4vtXnU+f4mYbzXuHUdu\nd2CHV65m7jgRtj2dpyGrfBOFCl20OadvcrwcJXeHMshvJlgrFh0K4ogRpNtz\nTBIOFYIMt2272HSXFJkXi39H7CGmY3xKJe3c7ayzVqAs6Rn28L35LKFaX/KY\ns/NPP7b0DGOJUiNP0UTFwpUcDNy6igfwZQ6cgayLEMiMrGMCdtGdxhQJhbM8\nPK6iHJIuuqZpXp5OAdVsb6fOBpx4Dv+7LHCA\n",
+    "iv": "V/Km2/tMYwrGlOp7ERh/JA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
